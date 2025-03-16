@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.field {
+  margin: 20px;
+}
+
+.user-fields {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 10px;
+}
