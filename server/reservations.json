@@ -1,29 +1,6 @@
 {
   "reservations": [
     {
-      "vehicleId": "tesla_1001",
-      "vehicleType": "tesla_model3",
-      "location": "dublin",
-      "bookings": [
-        {
-          "id": 18726,
-          "startDateTime": "2025-03-18T03:30:00Z",
-          "endDateTime": "2025-03-18T04:15:00Z",
-          "customerName": "John Smith",
-          "customerEmail": "John@Smith.com",
-          "customerPhone": "+353851234567"
-        },
-        {
-          "id": 26224,
-          "startDateTime": "2025-03-18T04:30:00.000Z",
-          "endDateTime": "2025-03-18T05:15:00.000Z",
-          "customerName": "test1",
-          "customerEmail": "test1@gmail.com",
-          "customerPhone": "2423423423"
-        }
-      ]
-    },
-    {
       "vehicleId": "tesla_1002",
       "vehicleType": "tesla_modelx",
       "location": "dublin",
@@ -37,12 +14,12 @@
           "customerPhone": "2341234124"
         },
         {
-          "id": 45774,
+          "id": 79434,
           "startDateTime": "2025-03-18T04:30:00.000Z",
           "endDateTime": "2025-03-18T05:15:00.000Z",
-          "customerName": "test3",
-          "customerEmail": "test3@gmail.com",
-          "customerPhone": "2823423423"
+          "customerName": "teslax",
+          "customerEmail": "teslax@gmail.com",
+          "customerPhone": "2131231231"
         }
       ]
     },
@@ -58,6 +35,29 @@
           "customerName": "testBB",
           "customerEmail": "testBB@gmail.com",
           "customerPhone": "2323423423"
+        }
+      ]
+    },
+    {
+      "vehicleId": "tesla_1001",
+      "vehicleType": "tesla_model3",
+      "location": "dublin",
+      "bookings": [
+        {
+          "id": 20680,
+          "startDateTime": "2025-03-27T06:30:00.000Z",
+          "endDateTime": "2025-03-27T07:15:00.000Z",
+          "customerName": "test3",
+          "customerEmail": "test3@gmail.com",
+          "customerPhone": "1212121212"
+        },
+        {
+          "id": 41896,
+          "startDateTime": "2025-03-18T03:30:00.000Z",
+          "endDateTime": "2025-03-18T04:15:00.000Z",
+          "customerName": "test2",
+          "customerEmail": "test@gmail.com",
+          "customerPhone": "2131231231"
         }
       ]
     }

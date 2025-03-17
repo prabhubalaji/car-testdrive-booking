@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #222222;
 }
 
 .field {
@@ -9,6 +10,45 @@
 .user-fields {
   display: flex;
   gap: 20px;
-  justify-content: center;
-  margin: 10px;
+  margin: 20px;
+  flex-direction: column;
+  width: 30%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.left-item {
+  flex: 0 0 40%;
+  background-color: #eff1f2;
+}
+
+.right-item {
+  flex: 0 0 60%;
+  background-color: #eff1f2;
+  text-align: left;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.action-button {
+  font-size: large;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.field select, .user-fields input, .datepicker-input {
+  border-radius: 10px;
+  height: 32px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.users-fields input {
+  width: 50%;
 }
